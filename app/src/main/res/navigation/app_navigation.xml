@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/loginFragment">
+
+
+
+    <fragment
+        android:id="@+id/registerFragment2"
+        android:name="com.thomy.mvvm_firebase_login.ui.auth.register.RegisterFragment"
+        android:label="fragment_register">
+
+        <action
+            android:id="@+id/action_registerFragment2_to_home_navigation"
+            app:destination="@id/home_navigation" />
+
+        <action
+            android:id="@+id/action_registerFragment2_to_loginFragment"
+            app:destination="@id/loginFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.thomy.mvvm_firebase_login.ui.auth.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment2"
+            app:destination="@id/registerFragment2" />
+
+        <action
+            android:id="@+id/action_loginFragment_to_home_navigation"
+            app:destination="@id/home_navigation" />
+
+    </fragment>
+
+    <include app:graph="@navigation/home_navigation" />
+
+</navigation>

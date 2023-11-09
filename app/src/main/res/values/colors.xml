@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="error">#AE0505</color>
+
+    <color name="primary">#FCFDFD</color>
+
+    <color name="stylebtn">#50E626</color>
+    <color name="headerColor">#50E626</color>
+    <color name="background_color">#1F0A66</color>
+
+
+    <color name="black">#B3000000</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">@color/primary</color>
+
+
+
+    <color name="tab_selected">#FF000000</color>
+    <color name="tab_unselected">#4D000000</color>
+
+</resources>

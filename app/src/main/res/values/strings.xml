@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">aPPmovie</string>
+
+    <!--login-->
+    <string name="email">Ingrese email</string>
+    <string name="password">Ingrese contraseña</string>
+    <string name="login_button_login">INICIAR SESION</string>
+    <string name="register">¿Aun no te has Registrado?</string>
+    <string name="user">Usuario</string>
+
+    <!--register -->
+    <string name="name_user">Nombre de usuario</string>
+    <string name="register_email">Ingrese email</string>
+    <string name="register_password">Ingrese contraseña</string>
+    <string name="repeat_password">Repita su contraseña</string>
+    <string name="button_register_user">Registrar</string>
+    <string name="button_create_user">CREAR CUENTA</string>
+    <string name="go_to_login">¿tienes una cuenta? inicia sesion</string>
+    <string name="enter_email">Ingresa email</string>
+    <string name="enter_password">Ingrese contraseña</string>
+
+
+    <!--header-->
+    <string name="login_tittle">Login</string>
+    <string name="login_sub_tittle">Ingresa a aPPmovie y disfruta del mejor cine</string>
+    <string name="create_user_tittle">Crear cuenta</string>
+    <string name="welcome_sub_tittle">Bienvenidos a aPPmovie</string>
+    <string name="profile_tittle">aPPmovie</string>
+    <string name="register_sub_tittle">Registrate y disfruta del mejor cine</string>
+
+    <!--profile-->
+    <string name="close_session">CERRAR SESION</string>
+    <string name="hello">¡Hola!</string>
+
+    <!--error-->
+    <string name="passwords_not_match">contraseña no coincide</string>
+    <string name="login_error_mail">ingrese un email valido</string>
+    <string name="login_error_password">"ingrese minimo 8 digitos"</string>
+    <string name="enter_data">Ingrese los datos requeridos</string>
+    <string name="register_error_mail">debe ingresar un Email valido</string>
+    <string name="register_error_password">debe contener al menos 8 Digitos</string>
+    <string name="repeat_error_password">contraseñas no coinciden</string>
+    <string name="invalid_email">"email invalido"</string>
+    <string name="invalid_password">Contraseña invalida</string>
+    <string name="enter_name_user">ingrese minimo 6 caracteres</string>
+
+
+
+</resources>

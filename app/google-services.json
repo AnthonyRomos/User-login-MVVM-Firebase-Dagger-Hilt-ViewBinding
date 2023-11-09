@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "617025773316",
+    "project_id": "mvvmlogin-4a8a8",
+    "storage_bucket": "mvvmlogin-4a8a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617025773316:android:2c235a76eb46c1f7103a51",
+        "android_client_info": {
+          "package_name": "com.thomy.mvvm_firebase_login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOj48y5pKl5lo8EBIy4KNP0kUz8uSZ2UA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

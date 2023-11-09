@@ -1,0 +1,90 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MVVM_Firebase_Login" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/background_color</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="FormTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:gravity">center_vertical</item>
+        <item name="errorEnabled">true</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textColorHint">@color/primary</item>
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="errorTextColor">@color/primary</item>
+        <item name="hintTextColor">@color/primary</item>
+    </style>
+
+    <style name="FormEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="singleLine">true</item>
+        <item name="maxLines">1</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textColorHint">@color/primary</item>
+    </style>
+
+    <style name="PrimaryButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">12sp</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:gravity">center</item>
+        <item name="backgroundTint">@color/primary</item>
+    </style>
+
+    <style name="TitilliumWebBold">
+        <item name="android:fontFamily">@font/titillium_web_bold</item>
+    </style>
+
+    <style name="TitilliumWebBlack">
+        <item name="android:fontFamily">@font/titillium_web_black</item>
+    </style>
+
+    <style name="TitilliumWebLight">
+        <item name="android:fontFamily">@font/titillium_web_light</item>
+    </style>
+
+    <style name="TitilliumWebRegular">
+        <item name="android:fontFamily">@font/titillium_web_regular</item>
+    </style>
+
+    <style name="TitleStyle">
+        <item name="android:fontFamily">@font/titillium_web_bold</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="SubTitleStyle">
+        <item name="android:fontFamily">@font/titillium_web_bold</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="DescStyle">
+        <item name="android:fontFamily">@font/titillium_web_regular</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:fontFamily">@font/titillium_web_regular</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="ChipTextStyle">
+        <item name="android:fontFamily">@font/titillium_web_regular</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenAnimationDuration">300</item>
+
+    </style>
+
+</resources>
